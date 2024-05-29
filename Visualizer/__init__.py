@@ -48,13 +48,13 @@ class Visualizer:
         self._check_events()
         pygame.display.update()
         if self.slow:
-            time.sleep(0.01)
+            time.sleep(0.05)
 
     def keep_open(self, algorithm, time: float, count: int) -> None:
         """Keep the window open"""
 
         pygame.display.set_caption(
-            "Sorting Visualizer     Algorithm: {}     Time: {:.3f}     Count: {}      Status: Done!".format(
+            "Sorting Visualizer     Algorithm: {}     Time: {:.3f}     Comparison Count: {}      Status: Done!".format(
                 algorithm.name, time, count
             )
         )
