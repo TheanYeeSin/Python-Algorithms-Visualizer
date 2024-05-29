@@ -14,3 +14,4 @@ python {algorithm}.py
 ## Algorithms
 
 - Bubble Sort
+- Selection Sort
