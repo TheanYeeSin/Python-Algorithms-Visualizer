@@ -15,3 +15,4 @@ python {algorithm}.py
 
 - Bubble Sort
 - Selection Sort
+- Insertion Sort
