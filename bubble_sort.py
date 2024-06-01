@@ -4,6 +4,7 @@ from typing import Optional
 
 
 class BubbleSort(Algorithm):
+    """Bubble sort: Push greater item forward."""
 
     def __init__(
         self,

@@ -4,6 +4,7 @@ from typing import Optional
 
 
 class SelectionSort(Algorithm):
+    """Selection sort: find lowest item, put, and repeat."""
 
     def __init__(
         self,

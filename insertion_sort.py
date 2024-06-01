@@ -4,6 +4,7 @@ from typing import Optional
 
 
 class InsertionSort(Algorithm):
+    """Insertion Sort: Move item left until you find the correct place. Repeat until end of list."""
 
     def __init__(
         self,
